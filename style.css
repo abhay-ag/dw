@@ -73,6 +73,7 @@ body{
     background: rgb(57, 61, 68);
     height: 7.5vh;
     position: sticky;
+    top: 0;
     display: flex;
     flex-direction: row;
     color: white;
@@ -131,7 +132,7 @@ a{
     font-family: 'montserrat';
     font-weight: 500;
     font-size: 1.5rem;
-    margin: 2vw 0 -2vw 0;
+    margin: 5vw 0 -2vw 0;
     outline: none;
     border: none;
     padding: 0.5em 2em;
