@@ -75,6 +75,7 @@ body{
     position: sticky;
     top: 0;
     display: flex;
+    z-index: 99999;
     flex-direction: row;
     color: white;
     align-items: center;
