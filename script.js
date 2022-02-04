@@ -7,3 +7,6 @@ function verify(){
         document.getElementById("wr").style.visibility = 'visible'
     }
 }
+function findit(){
+    window.find(document.getElementById("search").value)
+}
