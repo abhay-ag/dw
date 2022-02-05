@@ -119,6 +119,7 @@ a{
     box-sizing: border-box;
     border-radius: 15px;
     transition: transform 200ms ease-out;
+    position: relative;
 }
 .service-card:hover{
     transform: scale(1.05);
@@ -137,21 +138,20 @@ a{
     font-family: 'montserrat';
     font-weight: 500;
     font-size: 1.5rem;
-    margin: 5vw 0 -2vw 0;
     outline: none;
-    border: none;
     padding: 0.5em 2em;
     border-radius: 15px;
     color: white;
     background-color: rgba(0,0,0,0);
     box-sizing: border-box;
     border: 1px solid;
-    transition: background-color 200ms ease-out,
-    color 200ms ease-out;
+    transition: background-color 200ms ease-out, color 200ms ease-out;
+    position: absolute;
+    bottom: 1vw;
 }
 .do:hover{
     background-color: white;
-    color: rgb(41,45,51);
+    color: rgb(32, 35, 41);
 }
 .mar-left{
     margin-left: 35vw;
@@ -216,13 +216,13 @@ a{
         height: 30vw;
     }
     .service-card h1{
+        margin: -4vw 0 0 0;
         font-size: 7vw;
     }
     .service-card h3{
         font-size: 4vw;
     }
     .do{
-        margin: 4vw 0 0 0;
         border-radius: 0;
         padding: 1vw 2vw;
     }
