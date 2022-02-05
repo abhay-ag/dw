@@ -150,6 +150,7 @@ a{
     transition: background-color 200ms ease-out, color 200ms ease-out;
     position: absolute;
     bottom: 1vw;
+    cursor: pointer;
 }
 .do:hover{
     background-color: white;
