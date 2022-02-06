@@ -10,3 +10,6 @@ function findit(){
 function hello(){
     alert("hello")
 }
+function check1(){
+    alert("works like charm")
+}
