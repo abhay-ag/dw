@@ -7,3 +7,6 @@ function findit(){
         document.getElementById("search").value = ''
     }
 }
+function hello(){
+    alert("hello")
+}
